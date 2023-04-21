@@ -1,0 +1,19 @@
+{
+    "name": "autologin",
+    "version": "1.0.0",
+    "description": "auto login",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "build:win": "pkg . -t node16-win-x64 -o autoLogin"
+    },
+    "author": "wuhe",
+    "bin": {
+        "DC_Cleaner": "./index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "puppeteer": "^19.7.2",
+        "selenium-webdriver": "^4.8.1"
+    }
+}
